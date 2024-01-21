@@ -1,0 +1,21 @@
+[package]
+name = "ensure-mamba"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+color-eyre = "0.6.2"
+reqwest = {version = "0.11.23", features = ["json"]}
+tempdir = "0.3.7"
+tokio = { version = "1.35.1", features = ["full"] }
+tokio-util = { version = "0.7.10", features = ["full"] }
+trauma = "2.2.4"
+bzip2 = "0.4.4"
+tar = "0.4.40"
+serde = { version = "1.0.195", features = ["derive"] }
+serde_json = "1.0.64"
+expanduser = "1.2.2"
+shellexpand = "3.1.0"
+lazy_static = "1.4.0"
